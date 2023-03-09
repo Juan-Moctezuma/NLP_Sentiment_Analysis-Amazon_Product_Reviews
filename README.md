@@ -35,7 +35,7 @@ Multiple steps or processes were required for the completion of this project. Th
 
 ### Models' Outputs
 1. Vader Model - Decimal values (negative, neutral, positive, and compound - sum of previously mentioned attributes).
-**See example:** <img src="Screenshots/vader_output2.png" width="72%">
+**See example:**<br /><img src="Screenshots/vader_output2.png" width="72%">
 2. Roberta Model - Decimal values (negative, neutral & positive).
 **See example:**<img src="Screenshots/roberta_output.png" width="93%">
 3. Bert Model - Vector with decimal values (each position represents 1,2,3,4,5; the bigger and more negative at 3th, 4th, 5th positions implies a 'negative sentiment'). These decimals get rounded (hence we get an integer) to simulate a predicted 'Amazon Star' (5 being the maximum value).
