@@ -38,8 +38,8 @@ Multiple steps or processes were required for the completion of this project. Th
 **See example:** <img src="Screenshots/vader_output2.png" width="72%">
 2. Roberta Model - Decimal values (negative, neutral & positive).
 **See example:**<img src="Screenshots/roberta_output.png" width="93%">
-3. Bert Model - Vector with decimal values (each position represents 1,2,3,4,5; the bigger and more negative at 3th, 4th, 5th positions implies a 'negative sentiment'). These decimals get rounded (hence we get an integer) to simulate a predicted 'Amazon Star' (5 being the maximum value).<br />
-**See example:**<img src="Screenshots/bert_output.png" width="70%">
+3. Bert Model - Vector with decimal values (each position represents 1,2,3,4,5; the bigger and more negative at 3th, 4th, 5th positions implies a 'negative sentiment'). These decimals get rounded (hence we get an integer) to simulate a predicted 'Amazon Star' (5 being the maximum value).
+**See example:**<br /><img src="Screenshots/bert_output.png" width="70%">
 4. TextBlob Model - polarity and subjectivity. Polarity score lies between (-1 to 1) where -1 identifies negative words (such as ‘bad’, ‘awful’, ‘pathetic’, etc) and 1 identifies positive words (like ‘excellent’, ‘best’, etc.). Subjectivity score lies between (0 and 1), and it shows the amount of personal opinion. If a sentence has high subjectivity i.e. close to 1, it resembles that the text contains more personal opinion than factual information.
 5. Naive Bayes - Accuracy of prediction (probability percentage).
 
