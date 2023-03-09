@@ -9,6 +9,19 @@ This project’s goal is to analyze comments provided by customers by determinin
 <b>Click the following link to see PowerPoint Presentation (PDF format):</b> https://github.com/Juan-Moctezuma/NLP_Sentiment_Analysis-Amazon_Product_Reviews/blob/main/Amazon_Product_Review_Sentiment_Analysis.pdf
 
 ### Steps
+1. <b>Web Scraping</b>
+2. <b>Data Preprocessing</b>
+3. <b>Exploratory Data Analysis</b>
+4. <b>Machine Learning Models</b>
+   * <b>VADER - Valence Aware Dictionary & Sentiment Reasoner (Bag of words approach)</b>
+   * <b>Roberta Model - Transformer-based model by Hugging Face</b>
+   * <b>Bert neural network</b>
+   * <b>Bert's Linear Regression</b>
+   * <b>Text Blob - Python's Built-in library</b>
+   * <b>Naive Bayes Algorithm approach</b>
+5. <b>Business Analysis - learn from negative sentiment for product and service improvement</b>
+
+### Jupyter Notebook Links
 Multiple steps or processes were required for the completion of this project. The following bullet points lists the name of process and the Jupyter Notebook containing the Python code with splitted steps and comments:
 1. <b>Web Scraper</b> - Data extraction phase - https://github.com/Juan-Moctezuma/NLP_Sentiment_Analysis-Amazon_Product_Reviews/blob/main/Part1-Whey_Protein_Amazon_Reviews_Scraper.ipynb
 2. <b>Data Preprocessing</b> - Data manipulation phase - https://github.com/Juan-Moctezuma/NLP_Sentiment_Analysis-Amazon_Product_Reviews/blob/main/Part2-Amazon_Reviews_Data_Preprocessing.ipynb
@@ -22,8 +35,11 @@ Multiple steps or processes were required for the completion of this project. Th
 
 ### Model's Outputs
 1. Vader Model - Decimal values (negative, neutral, positive, and compound - sum of previously mentioned attributes)
+<img src="Screenshots/vader_output.png" width="50%">
 2. Roberta Model - Decimal values (negative, neutral & positive)
+<img src="Screenshots/roberta_output.png" width="50%">
 3. Bert Model - Vector with decimal values (each position represents 1,2,3,4,5; the bigger and more negative at 3th, 4th, 5th positions implies a 'negative sentiment'). These decimals get rounded (hence we get an integer) to simulate a predicted 'Amazon Star' (5 being the maximum value)
+<img src="Screenshots/bert_output.png" width="50%">
 4. TextBlob Model - polarity and subjectivity. Polarity score lies between (-1 to 1) where -1 identifies negative words (such as ‘bad’, ‘awful’, ‘pathetic’, etc) and 1 identifies positive words (like ‘excellent’, ‘best’, etc.). Subjectivity score lies between (0 and 1), and it shows the amount of personal opinion. If a sentence has high subjectivity i.e. close to 1, it resembles that the text contains more personal opinion than factual information.
 5. Naive Bayes - Accuracy of prediction (probability percentage)
 
