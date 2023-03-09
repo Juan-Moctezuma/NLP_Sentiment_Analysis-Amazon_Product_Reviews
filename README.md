@@ -19,7 +19,7 @@ This project’s goal is to analyze comments provided by customers by determinin
    * <b>Linear Regression (for analyzing Bert's outputs</b>
    * <b>Text Blob - Python's Built-in library</b>
    * <b>Naive Bayes Algorithm approach</b>
-5. <b>Business Analysis - learn from negative sentiment for product and service improvement</b>
+5. <b>Business Analysis - learning from negative sentiment for product and service improvements</b>
 
 ### Jupyter Notebook Links
 Multiple steps or processes were required for the completion of this project. The following bullet points lists the name of process and the Jupyter Notebook containing the Python code with splitted steps and comments:
