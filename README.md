@@ -12,7 +12,7 @@ This project’s goal is to analyze comments provided by customers by determinin
 1. <b>Web Scraping</b>
 2. <b>Data Preprocessing</b>
 3. <b>Exploratory Data Analysis</b>
-4. <b>Machine Learning Models</b>
+4. <b>Machine Learning Models - for training & prediction</b>
    * <b>VADER - Valence Aware Dictionary & Sentiment Reasoner (Bag of words approach)</b>
    * <b>Roberta Model - Transformer-based model by Hugging Face</b>
    * <b>Bert neural network</b>
