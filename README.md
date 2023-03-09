@@ -16,7 +16,7 @@ This project’s goal is to analyze comments provided by customers by determinin
    * <b>VADER - Valence Aware Dictionary & Sentiment Reasoner (Bag of words approach)</b>
    * <b>Roberta Model - Transformer-based model by Hugging Face</b>
    * <b>Bert neural network</b>
-   * <b>Linear Regression (for analyzing Bert's outputs</b>
+   * <b>Linear Regression (for analyzing Bert's outputs)</b>
    * <b>Text Blob - Python's Built-in library</b>
    * <b>Naive Bayes Algorithm approach</b>
 5. <b>Business Analysis - learning from negative sentiment for product and service improvements</b>
