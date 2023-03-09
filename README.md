@@ -33,7 +33,7 @@ Multiple steps or processes were required for the completion of this project. Th
     * <b>Naive Bayes Classifier</b> - based on Bayes' Probability Theorem - https://github.com/Juan-Moctezuma/NLP_Sentiment_Analysis-Amazon_Product_Reviews/blob/main/Part7-Whey_Protein_Sentiment_Analysis_Naive_Bayes_Classifier.ipynb
 5. <b>Business Analysis: Understanding Customer's Negative Sentiments</b> - https://github.com/Juan-Moctezuma/NLP_Sentiment_Analysis-Amazon_Product_Reviews/blob/main/Part8-Business_Analysis-Root_Cause_of_Negative_Sentiments.ipynb
 
-### Models' Outputs
+### Models' Outputs (for each Amazon comment or review analyzed)
 1. Vader Model - Decimal values (negative, neutral, positive, and compound - sum of previously mentioned attributes).
 **See example:**<br /><img src="Screenshots/vader_output2.png" width="72%">
 2. Roberta Model - Decimal values (negative, neutral & positive).
