@@ -48,7 +48,7 @@ Multiple steps or processes were required for the completion of this project. Th
    * Excel
    * PowerPoint
 2. Jupyter Notebook (Python 3)
-3. Python 3 Libraries:
+3. Python 3 Dependencies:
    * AutoModelForSequenceClassification (for Roberta & Bert models)
    * AutoTokenizer (for Roberta model)
    * BeautifulSoup (for webscraping)
