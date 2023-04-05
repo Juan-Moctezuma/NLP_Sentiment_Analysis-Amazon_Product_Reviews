@@ -70,10 +70,41 @@ Multiple steps or processes were required for the completion of this project. Th
    * textblob (library or model itself)
    * torch (for Bert model)
    * tqdm (for Vader model)
+4. Requirements
+   * attr==0.3.2
+   * attrs==22.2.0
+   * beautifulsoup4==4.12.0
+   * ConfigParser==5.3.0
+   * contextlib2==21.6.0
+   * cryptography==40.0.1
+   * Cython==0.29.33
+   * dl==0.1.0
+   * docutils==0.19
+   * HTMLParser==0.0.2
+   * ipython==8.12.0
+   * ipywidgets==8.0.4
+   * Jinja2==3.1.2
+   * jnius==1.1.0
+   * keyring==23.13.1
+   * lockfile==0.12.2
+   * mock==5.0.1
+   * numpy==1.21.6
+   * pandas==1.5.3
+   * Pillow==9.5.0
+   * protobuf==4.22.1
+   * pyOpenSSL==23.1.1
+   * railroad==0.5.0
+   * Sphinx==6.1.3
+   * tornado==6.2
+   * trove_classifiers==2023.3.9
+   * truststore==0.6.1
+   * urllib3_secure_extra==0.1.0
+   * xmlrpclib==1.0.1
 
 ### Other Knowledge required for the completion of this project 
 1. Applied Mathematics & Statistics
 2. Machine Learning & Data Science methods
 3. Programming (Python 3)
-4. Data Analytics
-5. Business Acumen
+4. Web Scraping (with Python 3)
+5. Data Analytics
+6. Business Acumen
