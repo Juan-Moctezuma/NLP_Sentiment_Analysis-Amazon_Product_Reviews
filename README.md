@@ -104,7 +104,7 @@ Multiple steps or processes were required for the completion of this project. Th
 ### Other Knowledge required for the completion of this project 
 1. Applied Mathematics & Statistics
 2. Machine Learning & Data Science methods
-3. Programming (Python 3)
+3. Shell scripting (with Bash) & UNIX commands for setting up computer for Python 3.8
 4. Web Scraping (with Python 3)
 5. Data Analytics
 6. Business Acumen
