@@ -1,7 +1,7 @@
 # NLP Sentiment Analysis - Amazon Product Reviews
 
 ### Technical Description in Non-Technical Terms
-This project’s goal is to analyze comments provided by customers by determining if the given review is associated with the following sentiment: ‘positive’, ‘negative’ or ‘neutral’; and to apply Ai-powered methods for sentiment prediction based on actual rated reviews provided by customers. In this data science project, we are exclusively analyzing reviews of every whey protein product available (as of February 2023) for sell at Amazon. Whey Protein powder is a sporting supplement (based on dairy milk) consumed commonly by athletes, body-builders and anyone who wants or needs additional protein on their diet. How do we obtain our data? By scraping (automatically extracting) pages one through ten from the comments’ section for every single product available when searching for the terms ‘Whey Protein’ at Amazon’s (E-Commerce website) searchbar. What is the main tool for this project? We used Python 3 – programming language for both web scraping and applying both multiple Natural Language Processing (NLP) techniques and statistical methods / data science prediction models. The output CSV file for each model (except Naive Bayes) is stored at the DATA_RESULTS folder - an explanation for each of the model's output is written below the 'Jupyter Notebook Links' section. 
+This project’s goal is to analyze comments provided by customers by determining if the given review is associated with the following sentiment: ‘positive’, ‘negative’ or ‘neutral’; and to apply Ai-powered methods for sentiment prediction based on actual rated reviews provided by customers. In this data science project, we are exclusively analyzing reviews of every whey protein product available (as of February 2023) for sell at Amazon. Whey Protein powder is a sporting supplement (based on dairy milk) consumed commonly by athletes, body-builders and anyone who wants or needs additional protein on their diet. How do we obtain our data? By scraping (automatically extracting) pages one through ten from the comments’ section for every single product available when searching for the terms ‘Whey Protein’ at Amazon’s (E-Commerce website) searchbar. What is the main tool for this project? We used Python 3 – programming language for both web scraping and applying both multiple Natural Language Processing (NLP) techniques and statistical methods / data science prediction models. Customers’ reviews were given a score or probability (assigned by the NLP models) that represents the clients’ sentiment. Then predictions were used to observe any trends or patterns (in this specific case – bad plastic container seals for some powder protein products). Note that the output CSV file for each model (except Naive Bayes) is stored at the DATA_RESULTS folder - an explanation for each of the model's output is written below the 'Jupyter Notebook Links' section. 
 
 ### Presentation GIF
 <img src="GIF/ppt.gif" width="80%">
@@ -102,9 +102,10 @@ Multiple steps or processes were required for the completion of this project. Th
    * xmlrpclib==1.0.1
 
 ### Other Knowledge required for the completion of this project 
-1. Applied Mathematics & Statistics
-2. Machine Learning & Data Science methods
-3. Shell scripting (with Bash) & UNIX commands for setting up computer for Python 3.8
-4. Web Scraping (with Python 3)
-5. Data Analytics
-6. Business Acumen
+1. Applied Mathematics & Statistics.
+2. Machine Learning & Data Science methods - Python 3 pre-trained algorithms.
+3. Shell scripting (with Bash) & UNIX commands for setting up computer for Python 3.8.
+4. Web Scraping (with Python 3) - software development technique that needs a basic understanding of Amazon’s webpage structure and how RESTful requests work to legally extract data from a 3rd party or external source.
+5. Data Engineering - for data preprocessing or data cleansing using Python. Phase required for raw or scraped data formatting, so that the cleaned tabular data (like Excel rows) get analyzed by our Machine Learning (ML) models.
+6. Data Analytics - for exploratory phase and getting basic statistical summaries.
+7. Business Acumen - for product improvement.
